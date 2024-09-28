@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Greetings!",
+        "How are you?",
+        "Howdy",
+        "Whats Up!",
+        "Hows it hanging?",
+        "Hey!"
+      ],
+      "response": "greet"
+    },
+    {
+      "tag": "timeleft",
+      "patterns": [
+        "How much time is left?",
+        "How much longer in this class?",
+        "When does this block end?",
+        "When can I get out of this class?"
+      ],
+      "response": "timeleft"
+    },
+    {
+      "tag": "schedule",
+      "patterns": [
+        "What is my schedule for today?",
+        "What Block Day is it today?",
+        "What letter day is today?",
+        "Can I see my schedule today?"
+      ],
+      "response": "schedule"
+    },
+    {
+      "tag": "periods",
+      "patterns": [
+        "What periods are set?",
+        "What are my periods?",
+        "What periods do I have?",
+        "Can I see my periods?"
+      ],
+      "response": "periods"
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Can I see the events for today?",
+        "What events are occurring today?",
+        "What are today's events?",
+        "Is there anything going on today?"
+      ],
+      "response": "event"
+    },
+    {
+      "tag": "daysleft",
+      "patterns": [
+        "How many days are left in school?",
+        "How much longer is school?",
+        "For how many days do I have to be here?",
+        "When does school end?"
+      ],
+      "response": "daysleft"
+    }
+  ]
+}
