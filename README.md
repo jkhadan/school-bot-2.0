@@ -11,7 +11,6 @@
 - 🕓 Real-time block schedule and event retrieval
 - 📅 Integration with school calendar (`SWCal.ics`)
 - 🧠 Neural network-based model for query classification
-- 🌐 Socket-based client-server architecture for deployment
 - 💬 Friendly responses to everyday student queries
 
 ---
@@ -20,7 +19,7 @@
 
 ```
 SchoolBot2.0/
-├── Client.py               # Client-side script to interact with the bot via socket
+├── Client.py               # Client-side script to interact with the bot
 ├── SchedulingHHS.py        # Parses .ics file and computes time-related information
 ├── School.py               # Stores structured block/period schedule logic
 ├── chat.py                 # Central chat logic and server integration
@@ -72,19 +71,11 @@ pip install torch nltk scikit-learn python-ics
 python train.py
 ```
 
-3. **Start the Chatbot Server**
+3. **Start the Chatbot**
 
 ```bash
-python chat.py
+python main.py
 ```
-
-4. **Run the Client**
-
-```bash
-python Client.py
-```
-
-5. **(Optional)**: Run `main.py` if you'd like to interact via the direct console.
 
 ---
 
